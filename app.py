@@ -16,7 +16,7 @@ def load_llm(huggingface_repo_id):
     llm = HuggingFaceEndpoint(
         repo_id=huggingface_repo_id,
         temperature=0.5,
-        model_kwargs={"token": "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", "max_length": "512"}
+        model_kwargs={"token": "", "max_length": "512"}
     )
     return llm
 
