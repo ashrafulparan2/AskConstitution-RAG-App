@@ -1,4 +1,4 @@
-# [AskConstitution-RAG-App](https://ashrafulparan2-askconstitution-rag-app-app-vaptge.streamlit.app/)
+# [AskConstitution-RAG-App](https://askconstitution.streamlit.app/)
 
 ![alt text](image2.png)
 
