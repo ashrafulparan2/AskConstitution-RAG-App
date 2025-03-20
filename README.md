@@ -14,7 +14,7 @@ This application allows users to ask questions about the Constitution of Banglad
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ashrafulparan2/AskConstitution-RAG-App.git
    cd AskConstitution-RAG-App
 
 2. **Install Dependencies:**
