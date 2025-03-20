@@ -1,6 +1,6 @@
 # [AskConstitution-RAG-App](https://ashrafulparan2-askconstitution-rag-app-app-vaptge.streamlit.app/)
 
-![alt text](image.png)
+![alt text](image2.png)
 
 This application allows users to ask questions about the Constitution of Bangladesh using a Retrieval-Augmented Generation (RAG) approach powered by LangChain and Hugging Face models.
 
