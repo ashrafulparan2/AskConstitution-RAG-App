@@ -10,6 +10,11 @@ DB_FAISS_PATH = "./vectorstore/db_faiss"
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 db = FAISS.load_local(DB_FAISS_PATH, embedding_model, allow_dangerous_deserialization=True)
 
+from huggingface_hub import login
+
+# Use your Hugging Face token
+login(token="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")
+
 # Load the LLM
 HUGGINGFACE_REPO_ID = "mistralai/Mistral-7B-Instruct-v0.3"
 def load_llm(huggingface_repo_id):
