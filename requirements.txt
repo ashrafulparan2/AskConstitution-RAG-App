@@ -1,0 +1,5 @@
+pypdf 
+langchain
+langchain_community 
+langchain_huggingface 
+faiss_cpu
