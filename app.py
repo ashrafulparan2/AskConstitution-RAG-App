@@ -50,6 +50,7 @@ qa_chain = RetrievalQA.from_chain_type(
 
 # Streamlit App
 st.title("RAG App with LangChain")
+st.title("Ask Anything about the constitution of Bangladesh")
 user_query = st.text_input("Ask a question:")
 
 if user_query:
