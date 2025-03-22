@@ -61,7 +61,7 @@ embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-Mi
 db = FAISS.load_local(DB_FAISS_PATH, embedding_model, allow_dangerous_deserialization=True)
 
 # Hugging Face login
-login(token=secrets.Read)
+login(token="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")
 
 # Load the LLM
 HUGGINGFACE_REPO_ID = "mistralai/Mistral-7B-Instruct-v0.3"
